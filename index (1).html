@@ -14,10 +14,10 @@
 {% for task in tasks %}
     <h2>タイトル : {{ task.title }}</h2>
     <p>詳細 : {{ task.details }}</p>
-   
+    <!-- {% comment %}  -->
     TODO:
     編集用のボタンを追加する 
-    <a href="/update/{{task.id}}" role="button">Update</a>
+    <!-- {% endcomment %} -->
     <a href="/delete/{{ task.id }}" role="button">Delete</a>
 {% endfor %}
 {% endblock %}
