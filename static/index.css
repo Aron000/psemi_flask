@@ -1,0 +1,89 @@
+
+
+
+.apptitle{
+    background-color: aquamarine;
+}
+
+.frame h2{
+text-align: center;
+font-size:30px;
+}
+
+.frame2 h2{
+    text-align: center;
+    font-size:30px;  
+}
+
+.frame form{
+    text-align:center;
+}
+
+.frame2 form{
+    text-align:center; 
+}
+
+.titleClass{
+    font-size:20px;
+}
+
+.titleClass2{
+    font-size:20px;
+}
+
+.textbox{
+    height:20px;
+    width:400px;
+    border-radius: 5px;
+  border: 2px solid #000000;
+  
+}
+.detailsClass {
+    font-size:20px;
+
+}
+.detailsClass2{
+    font-size:20px;
+}
+
+.button{
+    margin-top: 20px;
+    background-color: aqua;
+    width:100px;
+    height:50px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+}
+
+.button:hover{
+    background-color: #a5a5a5;
+}
+
+.task{
+    background-color: rgb(100, 159, 159);
+    margin:20px;
+    border-radius: 5px;
+}
+
+.task h2{
+    text-align: left;
+}
+.task p{
+    font-size:20px;
+}
+
+.buttonGroup{
+text-align: right;
+color:black;
+}
+h1{
+    margin-left:10px;
+    color:black;
+    margin-top:0px;
+    font-size:40px;
+}
+body{
+    margin-top:0px;
+    margin-left:0px;
+    margin-right:0px;
+}
