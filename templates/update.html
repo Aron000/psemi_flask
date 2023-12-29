@@ -1,14 +1,23 @@
 {% extends 'base.html' %}
 
 {% block body %}
+<div class="frame2">
+  <div class="apptitle">
+    <h1>Todo app</h1>
+    </div>
 <h2>編集</h2>
 <div class="form">
     <form action="/update/{{update_task.id}}" method="POST">
+      <div class="titleClass2">
       <label for="title">Title</label>
-      <input type="text" name="title" value="{{update_task.title}}" />
+      <input type="text" name="title" value="{{update_task.title}}" class="textbox" />
+    </div>
+    <div class="detailsClass2">
       <label for="details">Details</label>
-      <input type="text" name="details" value="{{update_task.details}}"/>
-      <input type="submit" value="Update" />
+      <input type="text" name="details" value="{{update_task.details}}" class="textbox"/>
+    </div>
+      <input type="submit" value="Update" class="button"/>
     </form>
+</div>
 </div>
 {% endblock %}
